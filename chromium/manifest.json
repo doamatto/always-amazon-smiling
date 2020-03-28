@@ -11,8 +11,8 @@
         "*://www.amazon.com/*",
         "*://www.amazon.de/*",
         "*://www.amazon.co.uk/*",
-        "*://amazon.com/",
-        "*://amazon.de/",
-        "*://amazon.co.uk"
+        "*://amazon.com/*",
+        "*://amazon.de/*",
+        "*://amazon.co.uk/*"
     ]
 }

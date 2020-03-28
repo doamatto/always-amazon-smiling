@@ -8,7 +8,6 @@
         "persistent": false
     },
     "permissions": [
-        "tabs",
         "*://www.amazon.com/*",
         "*://www.amazon.de/*",
         "*://www.amazon.co.uk/*",

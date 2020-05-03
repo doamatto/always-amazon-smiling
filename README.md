@@ -10,3 +10,9 @@ This currently only support Chrome and Chromium-based browsers like Brave, but s
 
 - Brave 1.8.86 / Chromium 81.0.4044.129 (Should work for Chrome and other Chromium-based browsers)
 - Firefox 75.0 (Should work for other Firefox-/Gecko-based browsers)
+
+
+### Store Links
+- [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/always-amazon-smiling/)
+- [Chrome Web Store (pending official approval)](https://chrome.google.com/webstore/detail/ioeinegegnpkndnbkmmhhhaljlfpemgf)
+- [Opera Addons (pending approval)]()

@@ -18,22 +18,17 @@ var excludes = [
 ];
 
 chrome.webRequest.onBeforeRequest.addListener(function(details){
-    var t;
-    var s = details.url.split('.');
-    s = s.slice(-2).join('.');
-    if(details.url.match(/^https?:\/\/[^\/]+([\S\s]*)/)[1] === "/") {
-        t = "";
-    } else {
-        t = details.url.match(/^https?:\/\/[^\/]+([\S\s]*)/)[1];
-    }
+    var t = details.url.split('.');
+    t = t.slice(-2).join('.');
 
     if( details.url.match(excludes) ) { return; } // Ensure the site can support the redirect
+    console.log("https://smile." + t); // Developmental
     return {
 
         // The first regexp will solve for the domain (amazon.co[.uk]m or amazon.de)
         // The second regexp will solve for the location (everything after and including the '/')
 
-        redirectUrl: "https://smile." + s + t
+        redirectUrl: "https://smile." + t
     };
 }, {
     urls: [ // Sites to run on

@@ -4,10 +4,11 @@
     "description": "A simple tool to redirect you from Amazon's sites to their Amazon Smile counterparts.",
     "manifest_version": 2,
     "background": {
-        "scripts": ["background.js"],
-        "persistent": false
+        "scripts": ["background.js"]
     },
     "permissions": [
+        "webRequest",
+        "webRequestBlocking",
         "*://www.amazon.com/*",
         "*://www.amazon.de/*",
         "*://www.amazon.co.uk/*",

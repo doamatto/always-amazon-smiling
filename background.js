@@ -24,10 +24,6 @@ chrome.webRequest.onBeforeRequest.addListener(function(details){
     if( details.url.match(excludes) ) { return; } // Ensure the site can support the redirect
     console.log("https://smile." + t); // Developmental
     return {
-
-        // The first regexp will solve for the domain (amazon.co[.uk]m or amazon.de)
-        // The second regexp will solve for the location (everything after and including the '/')
-
         redirectUrl: "https://smile." + t
     };
 }, {

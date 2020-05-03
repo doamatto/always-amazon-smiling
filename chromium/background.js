@@ -17,7 +17,7 @@ var excludes = [
     'audible.',
 ];
 
-browser.webRequest.onBeforeRequest.addListener(function(details){
+chrome.webRequest.onBeforeRequest.addListener(function(details){
     var t;
     var s = details.url.split('.');
     s = s.slice(-2).join('.');

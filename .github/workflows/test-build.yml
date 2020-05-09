@@ -21,4 +21,3 @@ jobs:
       with:
         cmd: build
         verbose: true
-        source: src

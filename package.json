@@ -1,0 +1,22 @@
+{
+  "name": "always-amazon-smiling",
+  "version": "1.0.0",
+  "description": "A simple tool to redirect you from Amazon's sites to their Amazon Smile counterparts.",
+  "main": "background.js",
+  "repository": "https://github.com/doamatto/always-amazon-smiling",
+  "author": "doamatto (Ronchetto, Matt) <hello@doamatto.xyz>",
+  "license": "GPL-3.0-only",
+  "private": false,
+  "devDependencies": {
+    "eslint": "^7.6.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "gulp": "^4.0.2",
+    "gulp-eslint": "^6.0.0",
+    "gulp-json-lint": "^0.1.0",
+    "gulp-minify": "^3.1.0"
+  }
+}

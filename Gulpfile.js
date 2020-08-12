@@ -35,6 +35,6 @@ function jsonLint () {
 }
 
 function pipeContent () {
-  return src(['LICENSE'])
+  return src(['LICENSE', 'icon.png'])
     .pipe(dest('./build/'))
 }

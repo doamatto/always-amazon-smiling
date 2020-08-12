@@ -1,3 +1,5 @@
+/*global chrome*/
+
 chrome.webRequest.onBeforeRequest.addListener((details) => {
   var t = details.url; // Fetch base
   try {

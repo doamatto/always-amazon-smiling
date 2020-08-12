@@ -1,7 +1,9 @@
 ![Always Amazon Smiling](.github/banner.png)
 
 [Download via the Chrome Web Store](https://chrome.google.com/webstore/detail/ioeinegegnpkndnbkmmhhhaljlfpemgf)
+
 [Download via the Firefox Add-ons Shop](https://addons.mozilla.org/en-US/firefox/addon/always-amazon-smiling/)
+
 [Download via the Opeara Addons Shop](https://addons.opera.com/en/extensions/details/always-amazon-smiling/)
 
 Always Amazon Smiling (abbreviated to AAS) is a simple extension that redirects requests to compatible Amazon sites to their Amazon Smile counterparts. This allows you to easily support the charities/non-profits that you love.

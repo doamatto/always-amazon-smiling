@@ -21,7 +21,11 @@ chrome.webRequest.onBeforeRequest.addListener((details) => {
   if(details.url.match(excludes)) return; // Ensure the site can support the redirect
 
   var t = details.url; // Fetch base
-  t = t.replace(/https:\/\/|http:\/\//gi, ""); // Remove protocol
+  try {
+    t = t.replace(/https:\/\/|http:\/\//gi, ""); // Remove protocol
+  } catch(err) {
+    return console.error("[Always-Amazon-Smiling] Not using HTTP(S) protocol; not continuing");
+  }
   if(t.startsWith("www.")) {
     t = t.replace("www.", ""); // Strip www.
   }

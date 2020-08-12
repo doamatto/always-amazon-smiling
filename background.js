@@ -1,25 +1,4 @@
-// These sites don't support Amazon Smile, but still have '.amazon.com' in them
-var excludes = [
-'advertising.',
-'affiliate-program.',
-'alexa.',
-'amzn_photos_web_us',
-'aws.',
-'developer.',
-'ignite.',
-'kdp.',
-'music.',
-'payments.',
-'read.',
-'twitch.',
-'videodirect.',
-'acx.',
-'audible.',
-];
-
 chrome.webRequest.onBeforeRequest.addListener((details) => {
-  if(details.url.match(excludes)) return; // Ensure the site can support the redirect
-
   var t = details.url; // Fetch base
   try {
     t = t.replace(/https:\/\/|http:\/\//gi, ""); // Remove protocol

@@ -15,5 +15,8 @@
         "*://amazon.com/*",
         "*://amazon.de/*",
         "*://amazon.co.uk/*"
-    ]
+    ],
+    "icons": {
+        "128": "icon.png"
+    }
 }

@@ -36,3 +36,11 @@ chrome.webRequest.onBeforeRequest.addListener((details) => {
   "other"
   ]
 }, ["blocking"]);
+/**
+ * @preserve Copyright © 2020 doamatto.
+ * This extension is licensed under the GNU
+ * General Public License version 3.0.
+ * The license is bundeled with the code
+ * and with the extension.
+ * https://github.com/doamatto/always-amazon-smiling
+ */

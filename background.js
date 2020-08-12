@@ -18,15 +18,18 @@ var excludes = [
 ];
 
 chrome.webRequest.onBeforeRequest.addListener((details) => {
-  var t = details.url.split('.');
-  console.log(t); // Testing
-  t = t.slice(-2).join('.');
-  console.log(t); // Testing
-
   if(details.url.match(excludes)) return; // Ensure the site can support the redirect
-  console.log("https://smile.amazon." + t); // Testing
+
+  var t = details.url; // Fetch base
+  t = t.replace(/https:\/\/|http:\/\//gi, ""); // Remove protocol
+  if(t.startsWith("www.")) {
+    t = t.replace("www.", ""); // Strip www.
+  }
+  var s = t.split("/")[0]; // Keep domain
+  t = t.replace(s, ""); // Removes domain from chunk
+
   return {
-    redirectUrl: "https://smile.amazon." + t
+    redirectUrl: "https://smile." + s + t
   };
 }, {
   urls: [ // Sites to run on

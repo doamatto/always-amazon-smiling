@@ -1,4 +1,4 @@
-# Always Amazon Smiling
+![Always Amazon Smiling](.github/banner.png)
 
 [Download via the Chrome Web Store](https://chrome.google.com/webstore/detail/ioeinegegnpkndnbkmmhhhaljlfpemgf)
 [Download via the Firefox Add-ons Shop](https://addons.mozilla.org/en-US/firefox/addon/always-amazon-smiling/)

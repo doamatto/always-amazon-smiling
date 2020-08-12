@@ -18,5 +18,7 @@
     ],
     "icons": {
         "128": "icon.png"
-    }
+    },
+    "author": "Ronchetto, Matt (doamatto) <hello@doamatto.xyz> (https://doamatto.xyz)",
+    "homepage_url": "https://github.com/doamatto/always-amazon-smiling"
 }

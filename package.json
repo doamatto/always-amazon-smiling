@@ -4,7 +4,7 @@
   "description": "A simple tool to redirect you from Amazon's sites to their Amazon Smile counterparts.",
   "main": "background.js",
   "repository": "https://github.com/doamatto/always-amazon-smiling",
-  "author": "doamatto (Ronchetto, Matt) <hello@doamatto.xyz>",
+  "author": "Ronchetto, Matt (doamatto) <hello@doamatto.xyz> (https://doamatto.xyz)",
   "license": "GPL-3.0-only",
   "private": false,
   "devDependencies": {

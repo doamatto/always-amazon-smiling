@@ -15,7 +15,7 @@
     "eslint-plugin-promise": "4.2.1",
     "eslint-plugin-standard": "4.1.0",
     "gulp": "4.0.2",
-    "gulp-eslint": "https://github.com/doamatto/gulp-eslint.git#v6.2.3",
+    "gulp-eslint": "https://github.com/doamatto/gulp-eslint.git#v6.2.4",
     "gulp-json-lint": "0.1.0",
     "gulp-minify": "3.1.0"
   }
